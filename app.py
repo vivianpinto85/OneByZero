@@ -21,7 +21,7 @@ def periodic_file_check():
     while True:
         print("Checking for new data in transaction_data folder...")
         trigger_transaction_processing() 
-        time.sleep(10)
+        time.sleep(300)
 
 @app.route('/assignment/transaction/<int:transaction_id>', methods=['GET'])
 @limiter.limit("10 per minute")  # Rate limit this endpoint to 10 requests per minute

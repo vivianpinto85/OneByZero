@@ -5,7 +5,7 @@ import requests
 from datetime import datetime, timedelta
 
 # Constants
-TRANSACTION_DIR = r'C:\sources\OneByZero\transactions'
+TRANSACTION_DIR = r'C:\sources\OneByZero\transaction_data'
 PRODUCT_REF_FILE = r'C:\sources\OneByZero\reference_data\ProductReference.csv'
 FILES_PER_DAY = 5
 RECORDS_PER_FILE = 5
